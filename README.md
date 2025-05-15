@@ -4,7 +4,23 @@ This project aims to predict the effectiveness of discourse elements in student 
 
 ## Project Structure
 
-feedback_prize_effectiveness/├── notebooks/                  # Jupyter notebooks for different stages│   ├── eda.ipynb               # Exploratory Data Analysis│   ├── training_and_validation.ipynb # Model training and validation│   └── prediction_and_submission.ipynb # Generating predictions for submission├── outputs/                    # Generated outputs│   ├── submission.csv          # Sample submission file│   └── wandb/                  # Local Weights & Biases logs├── models/                     # Saved model artifacts│   └── best_model/             # Best trained model and tokenizer├── data/                       # Raw competition data (ignored by .gitignore)├── .gitignore                  # Specifies intentionally untracked files├── README.md                   # This file└── requirements.txt            # Python dependencies (you should create this)
+```
+feedback_prize_effectiveness/
+├── notebooks/                  # Jupyter notebooks for different stages
+│   ├── eda.ipynb               # Exploratory Data Analysis
+│   ├── training_and_validation.ipynb # Model training and validation
+│   └── prediction_and_submission.ipynb # Generating predictions for submission
+├── outputs/                    # Generated outputs
+│   ├── submission.csv          # Sample submission file
+│   └── wandb/                  # Local Weights & Biases logs
+├── models/                     # Saved model artifacts
+│   └── best_model/             # Best trained model and tokenizer
+├── data/                       # Raw competition data (ignored by .gitignore)
+├── .gitignore                  # Specifies intentionally untracked files
+├── README.md                   # This file
+└── requirements.txt            # Python dependencies (you should create this)
+```
+
 ## Setup and Usage
 
 1.  **Clone the repository.**
