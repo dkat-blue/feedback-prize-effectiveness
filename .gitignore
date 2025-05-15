@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+celerybeat-schedule
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data Folder - Ignore all contents of the data directory
+data/
+
+# Models - Ignore large model files but allow configs and other small files
+# This allows committing tokenizer_config.json, config.json etc.
+models/**/*.pt
+models/**/*.pth
+models/**/*.bin
+models/**/*.onnx
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Outputs - DO NOT IGNORE
+# We want to track submission.csv and potentially local wandb logs
+
+outputs/wandb/
