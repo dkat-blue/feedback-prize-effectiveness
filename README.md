@@ -29,7 +29,6 @@ feedback_prize_effectiveness/
     ```bash
     pip install -r requirements.txt
     ```
-    *(Note: You'll need to generate `requirements.txt` using `pip freeze > requirements.txt`)*
 4.  **Run Notebooks:** Execute the Jupyter notebooks in the `notebooks/` directory, typically starting with `eda.ipynb`, then `training_and_validation.ipynb`, and finally `prediction_and_submission.ipynb`.
 5.  **Weights & Biases:** This project uses `wandb` for experiment tracking. Ensure you are logged in (`wandb login`) or have your API key configured.
 
