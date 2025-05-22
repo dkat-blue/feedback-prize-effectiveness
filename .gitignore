@@ -20,12 +20,8 @@ build/
 # Data Folder - Ignore all contents of the data directory
 data/
 
-# Models - Ignore large model files but allow configs and other small files
-# This allows committing tokenizer_config.json, config.json etc.
-models/**/*.pt
-models/**/*.pth
-models/**/*.bin
-models/**/*.onnx
+# Models
+models/
 
 # OS generated files
 .DS_Store
